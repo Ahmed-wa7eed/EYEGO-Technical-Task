@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eyego
+  labels:
+    app: eyego
+spec:
+  selector:
+    matchLabels:
+        app: eyego
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: eyego
+    spec:
+      containers:
+        - name: eyego
+          image: ahmed3013/eyego:latest
+          ports:
+            - containerPort: 2000
+              protocol: TCP
+          imagePullPolicy: Always
+

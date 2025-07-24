@@ -40,5 +40,5 @@ jobs:
       - name: Deploy to Kubernetes
         run: |-
           aws eks update-kubeconfig --region us-east-1 --name EYEGO-Cluster
-          kubectl apply -f deploy.yml
-          kubectl apply -f lb.yml
+          kubectl apply -f k8s/deploy.yml
+          kubectl apply -f k8s/lb.yml

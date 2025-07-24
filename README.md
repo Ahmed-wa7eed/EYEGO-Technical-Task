@@ -81,6 +81,8 @@ kubectl apply -f k8s/service.yaml
 | AWS_ACCESS_KEY_ID  | User AccessKey                          |
 | AWS_SECRET_ACCESS_KEY  | User Secret Access Key              |
 
+![image alt](https://github.com/Ahmed-wa7eed/EYEGO-Technical-Task/blob/master/output.png?raw=true)
+
 ## 🌐 Cloud Migration Steps
 
 Update kubectl context to GCP/Alibaba

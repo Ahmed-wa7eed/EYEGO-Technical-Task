@@ -26,4 +26,4 @@ A simple Node.js web application with an API that returns **"Hello Eyego"**, con
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/eyego-app.git
+fgit clone https://github.com/yourusername/eyego-app.git
